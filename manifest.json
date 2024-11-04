@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Steam Redirect Firefox",
+  "version": "1.0",
+  "permissions": ["webRequest", "webRequestBlocking", "tabs", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

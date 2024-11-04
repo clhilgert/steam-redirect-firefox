@@ -1,3 +1,5 @@
+let isRedirected = false;
+
 browser.webRequest.onBeforeRequest.addListener(
   function (details) {
     const url = details.url;
